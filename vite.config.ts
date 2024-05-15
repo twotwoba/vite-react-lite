@@ -18,7 +18,8 @@ export default defineConfig(({ mode }) => {
         plugins: [
             react(),
             eslintPlugin({
-                include: ['src/**/*.ts', 'src/**/*.tsx']
+                include: ['src/**/*.ts', 'src/**/*.tsx'],
+                cache: false
             })
         ],
         resolve: {

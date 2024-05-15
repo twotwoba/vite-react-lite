@@ -1,5 +1,9 @@
-function App() {
-    return <div className="flex justify-center items-center h-full font-bold text-lg">hello world</div>
+import { useRoutes } from 'react-router-dom'
+import RouteList from '@/router'
+
+const App = () => {
+    const element = useRoutes(RouteList)
+    return element
 }
 
 export default App
