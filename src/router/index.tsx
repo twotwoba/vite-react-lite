@@ -1,7 +1,8 @@
-import LoadPage from '@/components/common/LoadPage'
 import type { RouteObject } from '@/types'
 
-import UnexpectedError from '@/components/common/UpexpectedError'
+import { Navigate } from 'react-router-dom'
+import UnexpectedError from '@/components/base/UpexpectedError'
+import loadPage from '@/components/base/LoadPage'
 
 const RouteList: RouteObject[] = [
     {
@@ -10,7 +11,7 @@ const RouteList: RouteObject[] = [
         children: [
             {
                 index: true,
-                element: LoadPage(() => import('@/pages/root'))
+                element: loadPage(() => import('@/App'))
             }
         ]
     },
@@ -25,6 +26,10 @@ const RouteList: RouteObject[] = [
     {
         path: '/404',
         element: <UnexpectedError errorMsg="Not Found" />
+    },
+    {
+        path: '*',
+        element: <Navigate to="/404" />
     }
 ]
 

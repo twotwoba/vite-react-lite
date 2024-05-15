@@ -1,9 +1,5 @@
-import { useRoutes } from 'react-router-dom'
-import RouteList from '@/router'
-
 const App = () => {
-    const element = useRoutes(RouteList)
-    return element
+    return <div> hello! young fella~~~</div>
 }
 
 export default App

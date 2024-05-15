@@ -1,14 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 import '@/style/preset.css'
 import '@/style/tailwind.css'
-import { BrowserRouter } from 'react-router-dom'
-import App from './App.tsx'
+
+import RouteList from './router/index.tsx'
+
+const router = createBrowserRouter(RouteList, { basename: import.meta.env.VITE_ROUTER_BASENAME })
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
-        <BrowserRouter basename={import.meta.env.VITE_ROUTER_BASENAME}>
-            <App />
-        </BrowserRouter>
+        <RouterProvider router={router}></RouterProvider>
     </React.StrictMode>
 )

@@ -5,7 +5,7 @@ import { lazy, Suspense } from 'react'
  * @param param  importFn - () => import(path)
  * @returns      ReactNode
  */
-const LoadPage = (
+const loadPage = (
     importFn: () => Promise<{
         default: React.ComponentType<any>
     }>
@@ -19,4 +19,4 @@ const LoadPage = (
     )
 }
 
-export default LoadPage
+export default loadPage
