@@ -28,6 +28,5 @@ module.exports = {
         react: {
             version: 'detect'
         }
-    },
-    exclude: ['./tailwindcss.config.js']
+    }
 }

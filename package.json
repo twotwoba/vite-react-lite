@@ -9,7 +9,6 @@
         "react",
         "typescript",
         "zustand",
-        "useSWR",
         "tailwindcss"
     ],
     "scripts": {

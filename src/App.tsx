@@ -1,5 +1,5 @@
 function App() {
-    return <div className="text-3xl font-bold">hello world</div>
+    return <div className="flex justify-center items-center h-full font-bold text-lg">hello world</div>
 }
 
 export default App

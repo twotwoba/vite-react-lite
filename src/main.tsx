@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import '@/style/reset.css'
+import '@/style/preset.css'
 import '@/style/tailwind.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
