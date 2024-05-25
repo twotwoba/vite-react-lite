@@ -61,7 +61,7 @@ export default defineConfig(({ mode }) => {
             },
             proxy: {
                 '/api': {
-                    target: 'http://0.0.0.0',
+                    target: env.VITE_PROXY_URL,
                     changeOrigin: true,
                     ws: false,
                     secure: false
