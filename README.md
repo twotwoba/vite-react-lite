@@ -38,8 +38,11 @@ You'd better follow the official advice
 
 ## maybe you need
 
+-   [shadcn/ui](https://ui.shadcn.com/)
+-   [Material Tailwind](https://www.material-tailwind.com/)
 -   [MUI](https://mui.com/)
 -   [Ant Design](https://ant.design/)
+-   [TanStack Virtual](https://tanstack.com/virtual/latest)
 -   [Framer Motion](https://www.framer.com/motion/)
 -   [swr](https://swr.vercel.app/)
 -   [day.js](https://day.js.org/)
