@@ -4,5 +4,6 @@
         "source.fixAll": "always",
         "source.fixAll.eslint": "always",
         "source.fixAll.stylelint": "always"
-    }
+    },
+    "tailwindCSS.experimental.classRegex": [["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]]
 }
