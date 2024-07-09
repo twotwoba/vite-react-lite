@@ -17,6 +17,10 @@ body,
     height: 100%;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 ul,
 ol {
     list-style: none;

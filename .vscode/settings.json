@@ -8,5 +8,6 @@
     "tailwindCSS.experimental.classRegex": [
         ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"], // clsx('xxx')
         ["\\/\\* tw \\*\\/\\s+`([^`]*)"] // /* tw */ `xxx`
-    ]
+    ],
+    "tailwindCSS.rootFontSize": 10
 }
