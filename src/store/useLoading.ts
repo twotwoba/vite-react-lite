@@ -1,4 +1,4 @@
-import till from '@/utils'
+import till from '@/utils/till'
 import { create } from 'zustand'
 
 type State = {
