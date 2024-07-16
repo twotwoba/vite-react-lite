@@ -14,6 +14,7 @@ A lite template of react with
 -   tailwindcss
 -   zustand
 -   immer
+-   swr
 
 ## Based on the vite template of react-ts
 
@@ -44,5 +45,4 @@ You'd better follow the official advice
 -   [Ant Design](https://ant.design/)
 -   [TanStack Virtual](https://tanstack.com/virtual/latest)
 -   [Framer Motion](https://www.framer.com/motion/)
--   [swr](https://swr.vercel.app/)
 -   [day.js](https://day.js.org/)
