@@ -16,16 +16,12 @@ const RouteList: RouteObject[] = [
         ]
     },
     {
-        path: '/401',
-        element: <UnexpectedError errorMsg="Please login first" />
-    },
-    {
         path: '/403',
-        element: <UnexpectedError errorMsg="Do not have permission" />
+        element: loadPage(() => import('@/pages/403'))
     },
     {
         path: '/404',
-        element: <UnexpectedError errorMsg="Not Found" />
+        element: loadPage(() => import('@/pages/404'))
     },
     {
         path: '*',
